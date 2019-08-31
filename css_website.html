@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title> My CSS Website</title>
+  </head>
+  <body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+          <li><a class="active" href="#home"> Home</a></li>
+          <li><a href="#news"> News</a></li>
+          <li><a href="#contacts"> Contacts</a></li>
+          <li><a href="#about"> About</a></li>
+          <li class="topnav-right"><a href="#signup"> Sign Up</a></li>
+          <li class="topnav-right"><a href="#login"> Login</a></li>
+          <li class="dropdownicon"><a href="javascript:void(0);"
+             onclick="dropdownmenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+      <div class="container" id="section-1-gradient">
+          <div class="row">
+              <div class="col-6">
+                <div class="leftside-col">
+                  <h1 class="large"><b> CyberCrew </b></h1>
+                    <h1 class= "large">Deciphering Technology  </h1>
+                  </div>
+                  <form>
+                  <div class="leftside-col">
+                      <h2> Username </h2>
+                      
+                      <input class="inputbox" type="text" name="username" placeholder="Username">
+                      
+                      <h2> Password </h2>
+                      
+                      <input class="inputbox" type="text" name="password" placeholder="Password">
+                      
+                      
+                      </div>
+                  </form>
+              </div>
+              <div class="col-6">
+                  <div class="rightside-col">
+                      <div class="videocontainer">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/BSggpoppZBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                  </div>
+              </div>
+          
+          </div>
+      
+       </div>
+      
+      
+      <header>
+      
+        <h1 class="section2header"> The Standards of Awesomeness </h1>
+      </header>
+      <div class="container">
+          <div class="row">
+              <div class="col-4">
+                  <div class= "box">
+                      <div class="icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThEr3YTkwgLgr18xZJK8eFhUo-XlTNa54vzOFeCms3czbVGxz3">
+                      </div>
+                      <label> Chat with Me</label>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                
+                  
+                  </div>
+                
+              </div>
+    
+       <div class="col-4">
+                  <div class= "box">
+                      <div class="icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThEr3YTkwgLgr18xZJK8eFhUo-XlTNa54vzOFeCms3czbVGxz3">
+                      </div>
+                      <label> Learn to code </label>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                
+                  
+                  </div>
+                
+              </div>
+          
+            <div class="col-4">
+                  <div class= "box">
+                      <div class="icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThEr3YTkwgLgr18xZJK8eFhUo-XlTNa54vzOFeCms3czbVGxz3">
+                      </div>
+                      <label> Build an empire </label>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                
+                  
+                  </div>
+                
+              </div>
+        
+          </div>
+          
+          <div class="row">
+              <div class="col-12">
+                  <button class="learnmore"> Learn More </button>
+              
+              </div>
+          
+          </div>
+          <hr>
+          
+          <div class="container">
+              <div class="row">
+                <div class="col-7">
+                <article>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+                
+                </article>
+              
+                </div>
+              
+            <div class="col-5">
+                <div class="imgicon"> 
+                  <img src="https://image.shutterstock.com/image-vector/touch-futureinterface-technology-future-user-260nw-503854255.jpg">
+                </div>
+              
+                  </div>
+                  
+              </div>
+          
+          </div>
+          
+        <footer class="footsy">
+          <div class= "row">
+              <div class="col-4 mobilestack">
+                  <h1> Company</h1>
+                  <ul>
+                    <li> About </li>
+                    <li> Blogs </li>
+                    <li> Career </li>
+                  
+                  
+                  </ul>
+              
+              </div>
+              <div class="col-4 mobilestack">
+                  <h1> Projects</h1>
+                  <ul>
+                    <li> About </li>
+                    <li> Blogs </li>
+                    <li> Year </li>
+                  
+                  
+                  </ul>
+              
+              </div>
+              <div class="col-4 mobilestack">
+                  <h1> Developers</h1>
+                  <ul>
+                    <li> About </li>
+                    <li> Blogs </li>
+                    <li> Career </li>
+                  
+                  
+                  </ul>
+              
+              </div>
+             
+            
+            
+            </div>
+          
+          
+          </footer>
+      
+    <script>
+      function dropdownmenu() {
+        var x = document.getElementById("dropdownclick");
+        if (x.classname === "topnav") {
+          x.classname += " responsive";
+          /* change topnav to topnav.responsive */
+        } else {
+          x.classname = "topnav";
+        }
+      }
+  </script>
+
+
+
+
+  </body>
+</html>
